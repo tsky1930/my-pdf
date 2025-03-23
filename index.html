@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我的PDF展示页</title>
+  <!-- 可选：添加样式美化页面 -->
+  <style>
+    body {
+      background: #f0f0f0;
+      margin: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    /* 为PDF容器添加阴影效果 */
+    .pdf-container {
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <h1>室内设计作品集</h1>
+  
+
+
+  <!-- 方式2：通过iframe嵌入（推荐） -->
+  <div class="pdf-container">
+    <iframe 
+      src="my-document.pdf" 
+      width="100%" 
+      height="800px"
+    ></iframe>
+  </div>
+
